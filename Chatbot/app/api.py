@@ -17,5 +17,3 @@ def get_response(query: str):
     """
     results = search(query, model, index, documents)
     return {"response": results[0]}
-
-
